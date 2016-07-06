@@ -1,7 +1,3 @@
 First, not committed, changed
 
-changing test first 
-
-
-thest new commit agan cmmit 1
-
+changing test first befre
