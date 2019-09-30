@@ -1,0 +1,11 @@
+git init			- initialize git
+git status			- see whats in staging area
+git add somefile.txt			- adds txt file to staging area
+git commit -m "Added octocat"			- commiting is added the 
+git add '*.txt'		- adding multiple files to staging.
+git log		- to see logs
+git log --summary
+git remote add origin https://github.com/try-git/try_git.git
+git push -u origin master			- here -u is to make git remember that next time we are puhing to origin on branch master
+git pull origin master
+

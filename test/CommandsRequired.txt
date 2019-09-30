@@ -1,0 +1,42 @@
+1. First we need to register github user name with local repository using 
+git config --global user.name "PavanTalpallikar"
+
+2. We need to register github email with local repository using 
+git config --global user.email "PavanTalpallikar@gmail.com"
+
+3. Now, go to the project directory and initiate the git
+git init
+
+4. Add all the files present in the project directory to local staging environment
+git add .     (. for adding all files)
+git add <file name>  (for adding only specific files)
+
+
+5. Commit changes to local git repo. This commits files from staging to local repo 
+git commit -m "Comment"
+
+
+6. Now, local repo has to know to which git hub repo the local files have to be transferred.
+Create a repo in github, copy the HTTPS URL
+
+git remote add origin https://github.com/PavanTalpallikar/POMWithMaven.git  
+
+
+7. Now, push the files from local to github using
+git push -u origin master
+
+
+git init			- initialize git
+git status			- see whats in staging area
+git add somefile.txt			- adds txt file to staging area
+git commit -m "Added octocat"			- commiting is added the 
+git add '*.txt'		- adding multiple files to staging.
+git log		- to see logs
+git log --summary
+git remote add origin https://github.com/try-git/try_git.git
+git push -u origin master			- here -u is to make git remember that next time we are puhing to origin on branch master
+git pull origin master
+
+
+
+https://medium.com/edureka/git-commands-with-example-7c5a555d14c
