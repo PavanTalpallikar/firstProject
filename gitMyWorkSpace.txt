@@ -1,4 +1,4 @@
-1. First we need to register github user name with local repository using 
+. First we need to register github user name with local repository using 
 git config --global user.name "Pav"
 
 2. We need to register github email with local repository using 
@@ -34,7 +34,7 @@ git add '*.txt'		- adding multiple files to staging.
 git log		- to see logs
 git log --summary
 git remote add origin https://github.com/try-git/try_git.git
-git push -u origin master			- here -u is to make git remember that next time we are puhing to origin on branch master
+git push -u origin master			- here -u is to make git remember that next time we are pushing to origin on branch master
 git pull origin master
 
 
