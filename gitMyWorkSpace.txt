@@ -1,8 +1,8 @@
 1. First we need to register github user name with local repository using 
-git config --global user.name "PavanTalpallikar"
+git config --global user.name "Pav"
 
 2. We need to register github email with local repository using 
-git config --global user.email "PavanTalpallikar@gmail.com"
+git config --global user.email "Pa"
 
 3. Now, go to the project directory and initiate the git
 git init
